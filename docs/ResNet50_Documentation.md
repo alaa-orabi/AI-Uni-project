@@ -1,9 +1,7 @@
 # ResNet50 – PlantVillage Disease Classification
 
 ## 1. Project Overview
-This project implements a plant disease classification system using the **ResNet50** architecture within the **PyTorch** framework. The goal is to accurately identify various plant diseases from leaf images in the PlantVillage dataset.
-
-Unlike the EfficientNetB3 and MobileNetV2 implementations which use TensorFlow/Keras, this model leverages the PyTorch ecosystem for training and inference.
+This project implements a plant disease classification system using the **ResNet50** architecture within the **TENSORFLOW** framework. The goal is to accurately identify various plant diseases from leaf images in the PlantVillage dataset.
 
 ---
 
