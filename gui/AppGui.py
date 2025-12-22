@@ -405,7 +405,7 @@ def load_model(model_name):
 
 def get_available_models():
     models = {
-        'ResNet50': {'path': MODEL_PATH, 'accuracy': '94.5%', 'speed': 'Fast'},
+        'ResNet50': {'path': MODEL_PATH, 'accuracy': '96.5%', 'speed': 'Fast'},
         'EfficientNetB3': {'path': EFFICIENTNET_PATH, 'accuracy': '96.2%', 'speed': 'Medium'},
         'MobileNet': {'path': MOBILENET_PATH, 'accuracy': '91.8%', 'speed': 'Very Fast'}
     }
@@ -686,7 +686,6 @@ def predict_tflite(img_array, tflite_model_path):
         return interpreter.get_tensor(output_details[0]['index'])
     except:
         return None
-
 
 # # BONUS: Image Enhancement & Preprocessing
 
